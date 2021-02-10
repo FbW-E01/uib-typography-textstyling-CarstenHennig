@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+blockquote {
+    margin: 0 0 0 30px;
+    font-style: italic;
+    line-height: 200%;
+}
+
+h1, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1:hover {
+    text-shadow: 3px 3px 26px gray;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: -2px;
+    word-spacing: 15px;
+}
+
+h3:hover {
+    text-decoration: line-through red;
+}
+
+p:hover {
+    direction: rtl;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+.italic {
+    text-transform: capitalize;
+}
+
+.bolder {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+a {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 1px 1px 16px grey;
+}
